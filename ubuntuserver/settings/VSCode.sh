@@ -132,8 +132,8 @@ Gerenciar
 # 09_ Configurações Globais do Git para funcionar com o VSCode
 Atalho: Ctrl + J
 	Terminal
-		git config --global user.name "Seu Nome Completo"
-		git config --global user.email "seuemaildogithub@provedor.com"
+		git config --global user.name "Giovanna"
+		git config --global user.email "giovanna_ag@outlook.com"
 		git config --global core.editor vim
 		git config --global merge.tool vimdiff
 		git config --global color.ui true
