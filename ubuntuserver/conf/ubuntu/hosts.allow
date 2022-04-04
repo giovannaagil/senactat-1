@@ -17,15 +17,15 @@
 #
 # Permitindo a Rede 172.16.X.0/24 se autenticar remotamente no Servidor de OpenSSH
 # DAEMON   CLIENT     OPTION
-sshd: 172.16.??.0/24: spawn /bin/echo "$(date) - SSH - IP %a" >> /var/log/tcpwrappers-allow-ssh.log
+sshd: 172.16.9.0/24: spawn /bin/echo "$(date) - SSH - IP %a" >> /var/log/tcpwrappers-allow-ssh.log
 #
 # Permitindo a Rede 172.16.X.0/24 se autenticar remotamente no Servidor de MySQL
 # DAEMON   CLIENT     OPTION
-mysqld: 172.16.??.0/24: spawn /bin/echo "$(date) - MySQL - IP %a" >> /var/log/tcpwrappers-allow-mysql.log
+mysqld: 172.16.9.0/24: spawn /bin/echo "$(date) - MySQL - IP %a" >> /var/log/tcpwrappers-allow-mysql.log
 #
 # Permitindo a Rede 172.16.X.0/24 se autenticar remotamente no Servidor de FTP
 # DAEMON   CLIENT     OPTION
-vsftpd: 172.16.??.0/24: spawn /bin/echo "$(date) - Vsftpd - IP %a" >> /var/log/tcpwrappers-allow-vsftpd.log
+vsftpd: 172.16.9.0/24: spawn /bin/echo "$(date) - Vsftpd - IP %a" >> /var/log/tcpwrappers-allow-vsftpd.log
 #
 # Exemplos de configuração do TCPWrappers do arquivo hosts.allow:
 # Permitindo uma Subrede ou nome de domínio FQDN

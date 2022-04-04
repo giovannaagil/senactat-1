@@ -13,8 +13,8 @@
 # Configuração do Banco de Dados de DNS Estático IPv4 do Servidor Local
 # IPv4		    FQDN                        CNAME	
 127.0.0.1 	    localhost.localdomain	    localhost
-127.0.1.1 	    wsSEU_NOME.ALTERAR_PARA_O_SEU_DOMINIO.intra	    wsSEU_NOME
-172.16.??.20	wsSEU_NOME.ALTERAR_PARA_O_SEU_DOMINIO.intra	    wsSEU_NOME
+127.0.1.1 	    wsgio.giovanna.intra	    wsgio
+172.16.9.20		wsgio.giovanna.intra	    wsgio
 #
 # Configuração do Banco de Dados de DNS Estático IPv6 do Servidor Local
 # OBSERVAÇÃO: por padrão nesse curso não será utilizando o suporte ao IPv6
