@@ -24,7 +24,7 @@ Protocol 2
 #
 # Endereço IPv4 do Servidor de OpenSSH que está liberado para permitir conexões remotas 
 # via protocolo SSH
-ListenAddress 172.16.???.20
+ListenAddress 172.16.9.20
 #
 # Métodos de Autenticação do OpenSSH, utilizar chaves públicas e autenticação por senha
 # Por padrão o Servidor de OpenSSH não trabalhar com Chaves Pública para autenticação, 
